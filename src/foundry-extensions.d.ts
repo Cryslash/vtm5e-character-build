@@ -5,4 +5,12 @@ declare module 'foundry' {
   }
 }
 
+declare global {
+  interface ApplicationV2 {
+    render(force?: boolean, options?: any): void;
+    bringToTop?(): void;
+    rendered?: boolean;
+  }
+}
+
 export {};

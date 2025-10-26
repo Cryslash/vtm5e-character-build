@@ -1,3 +1,6 @@
+# Ignora a pasta fonte da Progeny
+src/progeny
+
 # Logs
 logs
 *.log
