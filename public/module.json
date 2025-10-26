@@ -1,0 +1,19 @@
+{
+  "id": "vtm5e-character-build",
+  "title": "VTM5e Character Build",
+  "description": "Character builder integrado ao Foundry VTT para o sistema VTM5e.",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "13"
+  },
+  "authors": [{ "name": "Crystofher Lins" }],
+  "esmodules": ["index.js"],
+  "styles": [],
+  "packs": [],
+  "languages": [],
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "license": "MIT"
+}
