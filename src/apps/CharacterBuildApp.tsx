@@ -7,22 +7,12 @@ export class CharacterBuilderApp extends Application {
       height: 800,
       resizable: true,
       popOut: true,
-      template: undefined,
-      classes: ['vtm5e-character-builder'],
     });
-  }
-
-  getData(_options?: object): object {
-    return {};
-  }
-
-  render(force?: boolean, options?: object): this {
-    return super.render(force, options);
   }
 
   async _renderInner(): Promise<JQuery<HTMLElement>> {
     const iframe = document.createElement('iframe');
-    iframe.src = 'https://progeny.odin-matthias.de/';
+    iframe.src = 'https://progeny-vtm-v5-character-creator.vercel.app/';
     iframe.style.width = '100%';
     iframe.style.height = '100%';
     iframe.style.border = 'none';
@@ -34,13 +24,5 @@ export class CharacterBuilderApp extends Application {
     wrapper.appendChild(iframe);
 
     return $(wrapper);
-  }
-
-  _replaceHTML(
-    element: JQuery<HTMLElement>,
-    html: JQuery<HTMLElement>,
-    _options?: object,
-  ): void {
-    element.find('.window-content').empty().append(html);
   }
 }
