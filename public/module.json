@@ -1,19 +1,32 @@
 {
   "id": "vtm5e-character-build",
   "title": "VTM5e Character Build",
-  "description": "Character builder integrado ao Foundry VTT para o sistema VTM5e.",
-  "version": "0.0.1",
+  "description": "Criador de Personagem para iniciantes para o sistema VTM5e.",
+  "version": "1.0.0",
   "compatibility": {
-    "minimum": "11",
     "verified": "13"
   },
   "authors": [{ "name": "Crystofher Lins" }],
   "esmodules": ["index.js"],
-  "styles": [],
-  "packs": [],
-  "languages": [],
-  "url": "",
-  "manifest": "",
-  "download": "",
-  "license": "MIT"
+
+  "url": "https://github.com/Cryslash/vtm5e-character-build",
+  "manifest": "https://raw.githubusercontent.com/Cryslash/vtm5e-character-build/refs/heads/main/public/module.json",
+  "download": "https://github.com/Cryslash/vtm5e-character-build/releases/latest/download/vtm5e-character-build.zip",
+  "readme": "README.md",
+  "license": "MIT",
+
+  "bugs": {
+    "url": "https://github.com/Cryslash/vtm5e-character-build/issues"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "vtm5e",
+        "type": "system",
+        "compatibility": {
+          "verified": "5.2.0"
+        }
+      }
+    ]
+  }
 }
